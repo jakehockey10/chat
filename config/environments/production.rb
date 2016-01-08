@@ -83,5 +83,5 @@ Rails.application.configure do
 
 
   # Heroku support suggestion for getting ActionCable to work
-  config.action_cable.allowed_request_origins = [ /https?:\/\/secure-basin-1202\.herokuapp\.com/ ]
+  config.action_cable.allowed_request_origins = [ 'https://secure-basin-1202.herokuapp.com', /https:\/\/secure-basin-1202\.herokuapp\.com/ ]
 end
