@@ -79,4 +79,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+
+
+  # Heroku support suggestion for getting ActionCable to work
+  config.action_cable.allowed_request_origins = [ /https?:\/\/secure-basin-1202\.herokuapp\.com/ ]
 end
