@@ -10,6 +10,14 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'puma'
 
+
+
+
+gem 'redis' # https://devcenter.heroku.com/articles/heroku-redis#connecting-in-ruby
+
+
+
+
 group :development, :test do
   gem 'byebug'
 end

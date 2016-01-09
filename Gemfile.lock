@@ -179,6 +179,7 @@ DEPENDENCIES
   pg (~> 0.18)
   puma
   rails (>= 5.0.0.beta1, < 5.1)
+  redis
   spring
   turbolinks
   tzinfo-data
