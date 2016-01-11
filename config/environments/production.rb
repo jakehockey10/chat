@@ -91,4 +91,11 @@ Rails.application.configure do
   config.action_cable.allowed_request_origins = [ 'https://secure-basin-1202.herokuapp.com/', /https:\/\/secure-basin-1202\.herokuapp\.*/, 'http://secure-basin-1202.herokuapp.com/', /secure-basin-1202\.herokuapp\.*/ ]
 
 
+
+
+
+  # trying solution here: thegreatecodeadventure.com/deploying-action-cable-to-heroku/
+  config.middleware.user ChatActionCable
+  config.web_socket_server_url = "wss://secure-basin-1202.herokuapp.com/"
+
 end
